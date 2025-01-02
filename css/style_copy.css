@@ -30,7 +30,7 @@ header .header-top {
     position: relative;
     height: 60px;
 }
-header .util{
+header .header-top .util{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
