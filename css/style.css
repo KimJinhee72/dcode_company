@@ -48,7 +48,7 @@ header .header-top .util{
     display: block;
     padding: 0 10px;
     /* 폰트 사이즈 12 라인헤이트1(13px) font-family*/
-    font: 13px/1 "arial"
+    font: 13px/1 "arial";
 }
 header .header-bt{
     position: relative;
@@ -124,7 +124,7 @@ figure .inner a{
     color: #fff;
     text-align: center;
     /* 호버에 주지 않고 a바로 반응 속도 넣기 */
-    transition: all .5s;
+    transition: all 0.5s;
 }
 figure .inner a:hover{
     background-color: #fff;
@@ -171,6 +171,7 @@ section .inner .section-wrap{
     height: 120px;
     /* 원하는 이미지 넘는 부분 숨기기 */
     overflow: hidden;
+    margin-bottom: 15px;
 }
 .section-wrap article .pic img{
     position: absolute;
