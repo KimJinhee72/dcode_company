@@ -190,3 +190,59 @@ section .inner .section-wrap{
     font: 14px/1.4 "arial";
     color: #777;
 }
+/* 하단 */
+footer{
+    /* 브라우저 전체임 */
+    width: 100%;
+    background-color: #333;
+    padding: 100px 0;
+    border-top: 1px solid #bbb;
+}
+/* 하단위 */
+.upper{
+    padding-bottom: 20px ;
+    border-bottom: 1px solid #777;
+    /* background-color: aliceblue; */
+}
+/* 중간에 칸만들어 주기 그냥 외우기 */
+.upper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.upper h2 a{
+    /* width: 200px; */
+    color: #666;
+    font: bold 24px/1 "arial";
+    float: left;
+    /* background-color: #000; */
+}
+/* ul 오른쪽 띄우고 li left로 띄워 마진값주기*/
+.upper ul{
+    /* width: 600px; */
+    float: right;
+/*     
+    background-color: rgb(127, 255, 140); */
+}
+.upper ul li{
+    float: left;
+    margin-left: 20px ;
+}
+.upper ul li a{
+    color: #666;
+    font: bold 14px/1 "arial";
+}
+/* 하단아래 */
+.lower{
+    padding-top: 20px ;
+    /* background-color: aquamarine; */
+}
+.lower address{
+    font: 12px/1.3 "arial";
+    color: #777;
+    margin-bottom: 20px;
+}
+.lower p{
+    font: 12px/1 "arial";
+    color: #777;
+}
